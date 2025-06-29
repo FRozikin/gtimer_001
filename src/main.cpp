@@ -54,10 +54,10 @@ const char* mdns_hostname = "xtimer"; // <-- Nama host mDNS Anda
 
 // --- MQTT Configuration ---
 // Ganti dengan detail broker MQTT Anda dari HiveMQ Cloud atau EMQX Cloud
-const char *mqtt_server = "af2be1d832ff4f46bf19c7297d4b7efd.s1.eu.hivemq.cloud"; // PASTI GANTI DENGAN PUNYA ANDA!
+const char *mqtt_server = "PASTI GANTI DENGAN PUNYA ANDA"; // PASTI GANTI DENGAN PUNYA ANDA!
 const int mqtt_port = 8883; // Port SSL/TLS untuk HiveMQ Cloud (biasanya 8883)
-const char *mqtt_user = "esp32user"; // Ganti dengan username Anda
-const char *mqtt_pass = "@Hivemq.cloud1"; // Ganti dengan password Anda
+const char *mqtt_user = "Ganti dengan username Anda"; // Ganti dengan username Anda
+const char *mqtt_pass = "Ganti dengan password Anda"; // Ganti dengan password Anda
 
 // ID unik untuk perangkat ESP32 ini. Pastikan ini unik jika Anda memiliki beberapa ESP32.
 const char *mqtt_client_id = "ESP32_Timer_Device_Utama";
